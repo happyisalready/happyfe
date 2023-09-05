@@ -1,7 +1,11 @@
 import type { Config } from "tailwindcss";
+import type { Config } from "tailwindcss";
 
 const config: Config = {
   content: [
+    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./app/**/*.{js,ts,jsx,tsx,mdx}",
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
@@ -24,8 +28,13 @@ const config: Config = {
       fontFamily: {
         sans: ["Noto Sans KR", "sans-serif"],
       },
+    fontFamily: {
+      "Noto Sans CJK KR": ["Noto Sans CJK KR"],
     },
+    extend: {},
   },
   plugins: [],
+};
+export default config;
 };
 export default config;
