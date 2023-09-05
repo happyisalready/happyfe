@@ -2,14 +2,49 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-  html {
-    @apply font-sans;
-  }
-}
-
 @layer components {
   body {
     @apply text-primary-100;
   }
+}
+
+@font-face {
+  font-family: "Noto Sans CJK KR";
+  src: url("/fonts/NotoSansCJKkr-Thin.otf") format("opentype");
+  font-weight: 100;
+  font-display: swap;
+  line-height: 3;
+  letter-spacing: -0.04em;
+}
+@font-face {
+  font-family: "Noto Sans CJK KR";
+  src: url("/fonts/NotoSansCJKkr-Light.otf") format("opentype");
+  font-weight: 350;
+  font-display: swap;
+  line-height: 3;
+  letter-spacing: -0.04em;
+}
+@font-face {
+  font-family: "Noto Sans CJK KR";
+  src: url("/fonts/NotoSansCJKkr-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-display: swap;
+  line-height: 3;
+  letter-spacing: -0.04em;
+}
+@font-face {
+  font-family: "Noto Sans CJK KR";
+  src: url("/fonts/NotoSansCJKkr-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-display: swap;
+  line-height: 3;
+  letter-spacing: -0.04em;
+}
+@font-face {
+  font-family: "Noto Sans CJK KR";
+  src: url("/fonts/NotoSansCJKkr-Black.otf") format("opentype");
+  font-weight: 900;
+  font-display: swap;
+  line-height: 3;
+  letter-spacing: -0.04em;
 }

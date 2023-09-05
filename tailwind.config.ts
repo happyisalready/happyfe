@@ -1,5 +1,4 @@
 import type { Config } from "tailwindcss";
-import type { Config } from "tailwindcss";
 
 const config: Config = {
   content: [
@@ -26,15 +25,11 @@ const config: Config = {
         },
       },
       fontFamily: {
-        sans: ["Noto Sans KR", "sans-serif"],
+        "Noto Sans CJK KR": ["Noto Sans CJK KR"],
       },
-    fontFamily: {
-      "Noto Sans CJK KR": ["Noto Sans CJK KR"],
     },
-    extend: {},
+    plugins: [],
   },
-  plugins: [],
 };
-export default config;
-};
+
 export default config;
